@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# chmod u+x 
 for number in range(0, 100):
     if number == 99:
         print("{}".format(number))
