@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+# chmod u+x
 if __name__ == "__main__":
     import hidden_4
 
