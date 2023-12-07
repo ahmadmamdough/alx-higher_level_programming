@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-# chmod u+x
     new_matrix = []
     for i in range(len(matrix)):
         new_row = []
@@ -8,4 +7,3 @@ def square_matrix_simple(matrix=[]):
             new_row.append(j**2)
         new_matrix.append(new_row)
     return (new_matrix)
-
