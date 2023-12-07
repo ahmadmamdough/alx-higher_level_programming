@@ -5,12 +5,14 @@ def roman_to_int(roman_string):
 
     if not roman_string or type(roman_string) != str:
         return 0
-
+    last = 0
     for i, char in enumerate(roman_string):
-        tmp_num = roman[char]
+        tmp_num = roman[char] + last
         try:
             if tmp_num < roman[roman_string[i + 1]]:
                 tmp_num = tmp_num * - 1
+            else if tmp_num == roman[roman_string[i + 1]]:
+                last = tmp
         except IndexError:
             pass
         number = number + tmp_num
