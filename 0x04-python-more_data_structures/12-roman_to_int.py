@@ -15,5 +15,5 @@ def roman_to_int(roman_string):
                 last = tmp
         except IndexError:
             pass
-        number = number + tmp_num
+        number = number + tmp_num, last = 0
     return number
