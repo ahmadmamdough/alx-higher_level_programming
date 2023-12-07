@@ -1,4 +1,5 @@
 def square_matrix_simple(matrix=[]):
+# chmod u+x
     new_matrix = []
     for i in range(len(matrix)):
         new_row = []
