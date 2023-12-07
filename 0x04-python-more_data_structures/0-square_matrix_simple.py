@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
 # chmod u+x
     new_matrix = []
